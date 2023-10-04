@@ -9,7 +9,7 @@ import Foundation
 
 protocol RatesStoreProtocol {
     func fetchFluctuation(by base: String, from symbols: [String], startDate: String, endDate: String) async throws -> RatesFluctuationObject
-    func fetchTimeseries(by base: String, from symbols: [String], startDate: String, endDate: String) async throws -> RatesHistoricalObject
+    func fetchTimeseries(by base: String, from symbol: String, startDate: String, endDate: String) async throws -> RatesHistoricalObject
 }
 
 class RatesStore: BaseStore, RatesStoreProtocol {
@@ -26,8 +26,8 @@ class RatesStore: BaseStore, RatesStoreProtocol {
         return rates
     }
     
-    func fetchTimeseries(by base: String, from symbols: [String], startDate: String, endDate: String) async throws -> RatesHistoricalObject {
-        guard let urlRequest = try RatesRouter.timeseries(base: base, symbols: symbols, startDate: startDate, endDate: endDate).asUrlRequest()
+    func fetchTimeseries(by base: String, from symbol: String, startDate: String, endDate: String) async throws -> RatesHistoricalObject {
+        guard let urlRequest = try RatesRouter.timeseries(base: base, symbol: symbol, startDate: startDate, endDate: endDate).asUrlRequest()
         else {
             throw error
         }

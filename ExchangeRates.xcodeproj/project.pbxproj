@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		AE26A2F52ACCB609002B5498 /* BaseCurrencyFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2F42ACCB608002B5498 /* BaseCurrencyFilterView.swift */; };
 		AE26A2F72ACCB624002B5498 /* MultiCurrenciesFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2F62ACCB624002B5498 /* MultiCurrenciesFilterView.swift */; };
+		AE26A2F92ACCE154002B5498 /* RateFluctuationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2F82ACCE154002B5498 /* RateFluctuationModel.swift */; };
+		AE26A2FB2ACCE1CB002B5498 /* CurrencySymbolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2FA2ACCE1CB002B5498 /* CurrencySymbolModel.swift */; };
+		AE26A2FD2ACCE233002B5498 /* RateHistoricalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2FC2ACCE233002B5498 /* RateHistoricalModel.swift */; };
+		AE26A3002ACCE2D1002B5498 /* BaseCurrencyFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A2FF2ACCE2D1002B5498 /* BaseCurrencyFilterViewModel.swift */; };
+		AE26A3022ACCE627002B5498 /* MultiCurrenciesFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A3012ACCE627002B5498 /* MultiCurrenciesFilterViewModel.swift */; };
+		AE26A3042ACCE741002B5498 /* RatesFluctuationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26A3032ACCE741002B5498 /* RatesFluctuationViewModel.swift */; };
 		AE8703C22ABB151B0018FB3E /* ExchangeRatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8703C12ABB151B0018FB3E /* ExchangeRatesApp.swift */; };
 		AE8703C42ABB151B0018FB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8703C32ABB151B0018FB3E /* ContentView.swift */; };
 		AE8703C62ABB151D0018FB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8703C52ABB151D0018FB3E /* Assets.xcassets */; };
@@ -30,11 +36,18 @@
 		AE8703F52ABCE4760018FB3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8703F42ABCE4760018FB3E /* Extensions.swift */; };
 		AED28BD52ACACAAE00EDCB25 /* RateFluctuationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED28BD42ACACAAE00EDCB25 /* RateFluctuationDetailView.swift */; };
 		AED28BD82ACACEB900EDCB25 /* TimeRangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED28BD72ACACEB900EDCB25 /* TimeRangeEnum.swift */; };
+		AEFD538A2ACDCE76007497BA /* RateFluctuationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD53892ACDCE76007497BA /* RateFluctuationDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE26A2F42ACCB608002B5498 /* BaseCurrencyFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyFilterView.swift; sourceTree = "<group>"; };
 		AE26A2F62ACCB624002B5498 /* MultiCurrenciesFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCurrenciesFilterView.swift; sourceTree = "<group>"; };
+		AE26A2F82ACCE154002B5498 /* RateFluctuationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuationModel.swift; sourceTree = "<group>"; };
+		AE26A2FA2ACCE1CB002B5498 /* CurrencySymbolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySymbolModel.swift; sourceTree = "<group>"; };
+		AE26A2FC2ACCE233002B5498 /* RateHistoricalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateHistoricalModel.swift; sourceTree = "<group>"; };
+		AE26A2FF2ACCE2D1002B5498 /* BaseCurrencyFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyFilterViewModel.swift; sourceTree = "<group>"; };
+		AE26A3012ACCE627002B5498 /* MultiCurrenciesFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCurrenciesFilterViewModel.swift; sourceTree = "<group>"; };
+		AE26A3032ACCE741002B5498 /* RatesFluctuationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RatesFluctuationViewModel.swift; path = ../../../../../../../../Applications/RatesFluctuationViewModel.swift; sourceTree = "<group>"; };
 		AE8703BE2ABB151B0018FB3E /* ExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8703C12ABB151B0018FB3E /* ExchangeRatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesApp.swift; sourceTree = "<group>"; };
 		AE8703C32ABB151B0018FB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +70,7 @@
 		AE8703F42ABCE4760018FB3E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AED28BD42ACACAAE00EDCB25 /* RateFluctuationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuationDetailView.swift; sourceTree = "<group>"; };
 		AED28BD72ACACEB900EDCB25 /* TimeRangeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangeEnum.swift; sourceTree = "<group>"; };
+		AEFD53892ACDCE76007497BA /* RateFluctuationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuationDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE26A2FE2ACCE28E002B5498 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE26A2FF2ACCE2D1002B5498 /* BaseCurrencyFilterViewModel.swift */,
+				AE26A3012ACCE627002B5498 /* MultiCurrenciesFilterViewModel.swift */,
+				AE26A3032ACCE741002B5498 /* RatesFluctuationViewModel.swift */,
+				AEFD53892ACDCE76007497BA /* RateFluctuationDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		AE8703B52ABB151B0018FB3E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +117,7 @@
 				AE8703CF2ABB168A0018FB3E /* DataProviders */,
 				AED28BD62ACACE9300EDCB25 /* Models */,
 				AE8703F12ABCDBF60018FB3E /* Views */,
+				AE26A2FE2ACCE28E002B5498 /* ViewModels */,
 				AE8703C12ABB151B0018FB3E /* ExchangeRatesApp.swift */,
 				AE8703F42ABCE4760018FB3E /* Extensions.swift */,
 				AE8703C52ABB151D0018FB3E /* Assets.xcassets */,
@@ -200,6 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				AED28BD72ACACEB900EDCB25 /* TimeRangeEnum.swift */,
+				AE26A2F82ACCE154002B5498 /* RateFluctuationModel.swift */,
+				AE26A2FA2ACCE1CB002B5498 /* CurrencySymbolModel.swift */,
+				AE26A2FC2ACCE233002B5498 /* RateHistoricalModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,13 +306,18 @@
 				AE8703D82ABB1AAD0018FB3E /* CurrencyRouter.swift in Sources */,
 				AE8703D62ABB1AA00018FB3E /* RatesRouter.swift in Sources */,
 				AE8703DB2ABB5CA10018FB3E /* BaseStore.swift in Sources */,
+				AE26A2FD2ACCE233002B5498 /* RateHistoricalModel.swift in Sources */,
 				AE8703E22ABB6F0D0018FB3E /* RatesHistoricalObject.swift in Sources */,
+				AE26A2FB2ACCE1CB002B5498 /* CurrencySymbolModel.swift in Sources */,
+				AE26A3042ACCE741002B5498 /* RatesFluctuationViewModel.swift in Sources */,
 				AE8703C42ABB151B0018FB3E /* ContentView.swift in Sources */,
 				AE8703E02ABB6EB70018FB3E /* CurrencySymbol.swift in Sources */,
 				AE26A2F52ACCB609002B5498 /* BaseCurrencyFilterView.swift in Sources */,
+				AE26A3002ACCE2D1002B5498 /* BaseCurrencyFilterViewModel.swift in Sources */,
 				AE8703ED2ABBD43E0018FB3E /* RatesHistoricalDataProvider.swift in Sources */,
 				AE8703C22ABB151B0018FB3E /* ExchangeRatesApp.swift in Sources */,
 				AE8703E42ABB71280018FB3E /* RatesStore.swift in Sources */,
+				AE26A3022ACCE627002B5498 /* MultiCurrenciesFilterViewModel.swift in Sources */,
 				AE8703E82ABBD2A00018FB3E /* DataProviderManager.swift in Sources */,
 				AE8703F02ABBD4A70018FB3E /* CurrencySymbolsDataProvider.swift in Sources */,
 				AE8703DE2ABB5DE90018FB3E /* RatesFluctuationObject.swift in Sources */,
@@ -292,6 +326,8 @@
 				AE8703F32ABCDC180018FB3E /* RatesFluctuationView.swift in Sources */,
 				AE8703F52ABCE4760018FB3E /* Extensions.swift in Sources */,
 				AED28BD82ACACEB900EDCB25 /* TimeRangeEnum.swift in Sources */,
+				AE26A2F92ACCE154002B5498 /* RateFluctuationModel.swift in Sources */,
+				AEFD538A2ACDCE76007497BA /* RateFluctuationDetailViewModel.swift in Sources */,
 				AE8703EB2ABBD3530018FB3E /* RatesFluctuationDataProvider.swift in Sources */,
 				AE8703E62ABB74350018FB3E /* CurrencyStore.swift in Sources */,
 				AE26A2F72ACCB624002B5498 /* MultiCurrenciesFilterView.swift in Sources */,
